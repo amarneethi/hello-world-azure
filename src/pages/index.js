@@ -16,8 +16,8 @@ export default function Home() {
     })
 
     const data = await res.json()
-    setName (data.name)
-    
+    setName(data.name)
+
 
   }
 
